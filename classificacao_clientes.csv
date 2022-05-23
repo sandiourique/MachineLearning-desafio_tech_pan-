@@ -1,0 +1,499 @@
+;id_cliente;peso;colesterol;genero;idade;sigla_estado;cluster;nome_cluster
+0;1;102.0;111;Masculino;17;RR;2;Baixo risco
+1;2;115.0;135;Masculino;28;DF;2;Baixo risco
+2;3;115.0;136;Masculino;62;AM;2;Baixo risco
+3;5;130.0;158;Masculino;44;SE;1;Risco Moderado Baixo
+4;6;198.0;227;Masculino;17;ES;0;Alto Risco
+5;7;114.0;131;Masculino;30;SE;2;Baixo risco
+6;8;145.0;176;Feminino;30;SP;3;Risco Moderado Alto
+7;9;191.0;223;Feminino;34;PR;0;Alto Risco
+8;10;186.0;221;Masculino;55;CE;0;Alto Risco
+9;11;104.0;116;Feminino;50;AP;2;Baixo risco
+10;12;188.0;222;Masculino;62;CE;0;Alto Risco
+11;13;96.0;102;Feminino;52;PE;2;Baixo risco
+12;14;156.0;192;Feminino;34;DF;3;Risco Moderado Alto
+13;15;125.0;152;Feminino;69;SP;1;Risco Moderado Baixo
+14;16;178.0;213;Feminino;65;PA;0;Alto Risco
+15;17;109.0;125;Feminino;61;AP;2;Baixo risco
+16;18;168.0;204;Masculino;65;TO;0;Alto Risco
+17;19;152.0;189;Feminino;48;PE;3;Risco Moderado Alto
+18;20;133.0;163;Feminino;60;BA;1;Risco Moderado Baixo
+19;21;153.0;189;Feminino;70;BA;3;Risco Moderado Alto
+20;22;107.0;122;Feminino;28;PB;2;Baixo risco
+21;23;199.0;228;Masculino;63;AL;0;Alto Risco
+22;24;140.0;168;Feminino;34;MT;1;Risco Moderado Baixo
+23;25;95.0;102;Masculino;53;AP;2;Baixo risco
+24;26;183.0;218;Feminino;42;MA;0;Alto Risco
+25;27;108.0;123;Feminino;35;RS;2;Baixo risco
+26;28;190.0;222;Feminino;55;RN;0;Alto Risco
+27;29;174.0;208;Masculino;55;PA;0;Alto Risco
+28;30;149.0;183;Masculino;62;MG;3;Risco Moderado Alto
+29;31;169.0;204;Masculino;24;ES;0;Alto Risco
+30;32;138.0;167;Masculino;29;AP;1;Risco Moderado Baixo
+31;33;151.0;188;Masculino;56;RO;3;Risco Moderado Alto
+32;35;178.0;213;Feminino;60;CE;0;Alto Risco
+33;36;106.0;122;Masculino;67;RN;2;Baixo risco
+34;37;195.0;225;Masculino;16;PE;0;Alto Risco
+35;38;96.0;105;Masculino;42;AC;2;Baixo risco
+36;39;129.0;155;Feminino;33;MA;1;Risco Moderado Baixo
+37;40;166.0;203;Masculino;60;PE;3;Risco Moderado Alto
+38;41;197.0;225;Masculino;60;PA;0;Alto Risco
+39;42;148.0;177;Masculino;54;RN;3;Risco Moderado Alto
+40;43;117.0;139;Masculino;55;AM;1;Risco Moderado Baixo
+41;44;193.0;224;Feminino;36;TO;0;Alto Risco
+42;46;130.0;158;Feminino;65;SE;1;Risco Moderado Baixo
+43;47;183.0;218;Masculino;68;DF;0;Alto Risco
+44;48;134.0;164;Feminino;38;GO;1;Risco Moderado Baixo
+45;49;128.0;154;Feminino;38;DF;1;Risco Moderado Baixo
+46;50;105.0;118;Feminino;70;AM;2;Baixo risco
+47;51;115.0;138;Feminino;23;SE;2;Baixo risco
+48;52;166.0;199;Masculino;34;RO;3;Risco Moderado Alto
+49;53;183.0;219;Masculino;30;PB;0;Alto Risco
+50;54;149.0;183;Masculino;48;RR;3;Risco Moderado Alto
+51;55;110.0;128;Feminino;36;GO;2;Baixo risco
+52;56;164.0;197;Feminino;25;AM;3;Risco Moderado Alto
+53;57;157.0;196;Feminino;65;DF;3;Risco Moderado Alto
+54;58;170.0;208;Feminino;39;DF;0;Alto Risco
+55;59;124.0;152;Masculino;58;ES;1;Risco Moderado Baixo
+56;60;145.0;175;Masculino;38;RO;3;Risco Moderado Alto
+57;61;113.0;129;Feminino;70;RR;2;Baixo risco
+58;62;150.0;185;Feminino;47;ES;3;Risco Moderado Alto
+59;63;100.0;107;Masculino;57;PR;2;Baixo risco
+60;65;139.0;167;Feminino;30;CE;1;Risco Moderado Baixo
+61;66;150.0;185;Masculino;25;RS;3;Risco Moderado Alto
+62;68;157.0;194;Masculino;48;RJ;3;Risco Moderado Alto
+63;69;187.0;221;Feminino;35;RS;0;Alto Risco
+64;70;137.0;166;Feminino;49;MT;1;Risco Moderado Baixo
+65;71;121.0;143;Masculino;28;SE;1;Risco Moderado Baixo
+66;72;132.0;163;Feminino;42;GO;1;Risco Moderado Baixo
+67;73;130.0;158;Masculino;50;AL;1;Risco Moderado Baixo
+68;74;156.0;191;Feminino;24;RJ;3;Risco Moderado Alto
+69;75;180.0;216;Feminino;31;MA;0;Alto Risco
+70;76;100.0;106;Masculino;43;PB;2;Baixo risco
+71;77;122.0;146;Feminino;39;PE;1;Risco Moderado Baixo
+72;78;185.0;220;Feminino;34;MG;0;Alto Risco
+73;79;113.0;131;Feminino;48;MT;2;Baixo risco
+74;80;123.0;147;Feminino;61;TO;1;Risco Moderado Baixo
+75;81;119.0;141;Feminino;18;AM;1;Risco Moderado Baixo
+76;82;113.0;130;Masculino;58;DF;2;Baixo risco
+77;83;168.0;204;Masculino;46;PA;0;Alto Risco
+78;84;126.0;152;Masculino;18;SE;1;Risco Moderado Baixo
+79;85;102.0;111;Masculino;52;RO;2;Baixo risco
+80;86;116.0;139;Masculino;66;RO;1;Risco Moderado Baixo
+81;87;144.0;172;Masculino;43;BA;3;Risco Moderado Alto
+82;88;140.0;168;Feminino;25;MS;1;Risco Moderado Baixo
+83;89;124.0;148;Feminino;35;TO;1;Risco Moderado Baixo
+84;90;108.0;123;Feminino;29;RJ;2;Baixo risco
+85;91;154.0;189;Feminino;47;RO;3;Risco Moderado Alto
+86;92;185.0;220;Feminino;30;BA;0;Alto Risco
+87;93;106.0;120;Masculino;19;RO;2;Baixo risco
+88;94;97.0;106;Masculino;67;MG;2;Baixo risco
+89;95;96.0;105;Feminino;22;ES;2;Baixo risco
+90;96;129.0;157;Masculino;56;PA;1;Risco Moderado Baixo
+91;97;124.0;149;Masculino;28;MA;1;Risco Moderado Baixo
+92;98;149.0;185;Feminino;25;AC;3;Risco Moderado Alto
+93;99;97.0;106;Feminino;47;MS;2;Baixo risco
+94;100;102.0;115;Masculino;20;CE;2;Baixo risco
+95;101;146.0;177;Masculino;49;RS;3;Risco Moderado Alto
+96;104;118.0;140;Feminino;38;AC;1;Risco Moderado Baixo
+97;106;179.0;216;Masculino;56;RS;0;Alto Risco
+98;107;113.0;130;Feminino;50;AM;2;Baixo risco
+99;108;142.0;169;Feminino;65;PE;3;Risco Moderado Alto
+100;109;101.0;110;Masculino;48;AM;2;Baixo risco
+101;110;174.0;209;Masculino;63;AL;0;Alto Risco
+102;111;131.0;162;Masculino;23;RO;1;Risco Moderado Baixo
+103;112;179.0;214;Masculino;66;MT;0;Alto Risco
+104;113;122.0;145;Masculino;39;AC;1;Risco Moderado Baixo
+105;114;105.0;116;Masculino;44;AM;2;Baixo risco
+106;115;176.0;209;Feminino;21;CE;0;Alto Risco
+107;116;103.0;116;Masculino;22;MA;2;Baixo risco
+108;117;120.0;139;Masculino;44;BA;1;Risco Moderado Baixo
+109;119;143.0;168;Feminino;32;GO;3;Risco Moderado Alto
+110;120;134.0;158;Masculino;32;RJ;1;Risco Moderado Baixo
+111;121;203.0;232;Masculino;60;AM;0;Alto Risco
+112;122;116.0;136;Masculino;36;MA;2;Baixo risco
+113;123;150.0;180;Feminino;47;PR;3;Risco Moderado Alto
+114;124;192.0;228;Feminino;28;DF;0;Alto Risco
+115;125;187.0;222;Masculino;50;MA;0;Alto Risco
+116;126;107.0;117;Feminino;30;MS;2;Baixo risco
+117;127;192.0;224;Masculino;46;AL;0;Alto Risco
+118;128;97.0;104;Feminino;21;RN;2;Baixo risco
+119;130;128.0;156;Feminino;37;AP;1;Risco Moderado Baixo
+120;131;183.0;213;Feminino;21;DF;0;Alto Risco
+121;132;112.0;133;Feminino;26;GO;2;Baixo risco
+122;133;173.0;208;Masculino;69;DF;0;Alto Risco
+123;134;156.0;195;Feminino;52;TO;3;Risco Moderado Alto
+124;135;137.0;163;Feminino;53;PR;1;Risco Moderado Baixo
+125;136;156.0;195;Feminino;59;SP;3;Risco Moderado Alto
+126;137;112.0;124;Feminino;24;RJ;2;Baixo risco
+127;138;203.0;231;Masculino;39;CE;0;Alto Risco
+128;139;141.0;172;Feminino;35;CE;3;Risco Moderado Alto
+129;140;97.0;104;Masculino;57;MS;2;Baixo risco
+130;141;186.0;221;Feminino;48;PA;0;Alto Risco
+131;142;113.0;128;Feminino;62;RO;2;Baixo risco
+132;143;195.0;222;Feminino;48;ES;0;Alto Risco
+133;144;175.0;214;Masculino;53;AL;0;Alto Risco
+134;145;154.0;184;Masculino;63;PE;3;Risco Moderado Alto
+135;148;152.0;195;Masculino;28;MG;3;Risco Moderado Alto
+136;149;114.0;132;Masculino;45;RN;2;Baixo risco
+137;150;181.0;214;Feminino;39;SP;0;Alto Risco
+138;151;111.0;123;Masculino;52;AL;2;Baixo risco
+139;152;200.0;233;Masculino;55;TO;0;Alto Risco
+140;153;100.0;107;Masculino;29;SE;2;Baixo risco
+141;154;134.0;162;Feminino;26;RR;1;Risco Moderado Baixo
+142;155;167.0;204;Masculino;16;MT;0;Alto Risco
+143;156;198.0;227;Masculino;41;PE;0;Alto Risco
+144;158;121.0;142;Masculino;55;AP;1;Risco Moderado Baixo
+145;159;196.0;225;Feminino;58;RJ;0;Alto Risco
+146;160;171.0;212;Masculino;23;MT;0;Alto Risco
+147;162;186.0;220;Masculino;24;AM;0;Alto Risco
+148;164;133.0;155;Feminino;51;RR;1;Risco Moderado Baixo
+149;166;120.0;144;Feminino;29;PB;1;Risco Moderado Baixo
+150;167;168.0;201;Masculino;66;MG;3;Risco Moderado Alto
+151;168;184.0;222;Masculino;34;MT;0;Alto Risco
+152;169;154.0;189;Masculino;53;PE;3;Risco Moderado Alto
+153;170;115.0;132;Feminino;22;ES;2;Baixo risco
+154;171;168.0;204;Feminino;55;MG;0;Alto Risco
+155;172;161.0;201;Feminino;61;MT;3;Risco Moderado Alto
+156;173;171.0;211;Feminino;57;RJ;0;Alto Risco
+157;174;129.0;156;Masculino;28;MS;1;Risco Moderado Baixo
+158;175;150.0;179;Masculino;55;RS;3;Risco Moderado Alto
+159;176;118.0;129;Feminino;20;RO;2;Baixo risco
+160;177;154.0;185;Feminino;24;RO;3;Risco Moderado Alto
+161;178;103.0;107;Masculino;40;AP;2;Baixo risco
+162;179;180.0;213;Masculino;43;AP;0;Alto Risco
+163;180;141.0;172;Feminino;33;CE;3;Risco Moderado Alto
+164;183;159.0;202;Masculino;53;SE;3;Risco Moderado Alto
+165;184;191.0;222;Feminino;18;ES;0;Alto Risco
+166;185;142.0;168;Feminino;33;RS;1;Risco Moderado Baixo
+167;186;123.0;146;Masculino;60;PA;1;Risco Moderado Baixo
+168;187;135.0;170;Feminino;20;MA;1;Risco Moderado Baixo
+169;188;132.0;165;Masculino;31;RJ;1;Risco Moderado Baixo
+170;189;158.0;196;Feminino;42;PB;3;Risco Moderado Alto
+171;190;181.0;224;Feminino;66;RN;0;Alto Risco
+172;191;105.0;108;Masculino;29;BA;2;Baixo risco
+173;192;126.0;149;Feminino;53;MG;1;Risco Moderado Baixo
+174;193;186.0;224;Feminino;62;BA;0;Alto Risco
+175;194;116.0;136;Feminino;35;RS;2;Baixo risco
+176;195;124.0;152;Feminino;24;AP;1;Risco Moderado Baixo
+177;197;115.0;135;Masculino;32;RR;2;Baixo risco
+178;198;173.0;211;Masculino;28;MT;0;Alto Risco
+179;199;128.0;156;Masculino;70;MA;1;Risco Moderado Baixo
+180;200;103.0;115;Masculino;62;PR;2;Baixo risco
+181;201;120.0;143;Masculino;67;AM;1;Risco Moderado Baixo
+182;202;146.0;179;Masculino;31;RR;3;Risco Moderado Alto
+183;203;145.0;173;Feminino;16;AC;3;Risco Moderado Alto
+184;204;125.0;148;Feminino;21;RR;1;Risco Moderado Baixo
+185;205;109.0;127;Feminino;50;DF;2;Baixo risco
+186;206;156.0;194;Feminino;53;AP;3;Risco Moderado Alto
+187;207;187.0;225;Feminino;54;RN;0;Alto Risco
+188;208;110.0;127;Masculino;35;GO;2;Baixo risco
+189;209;100.0;106;Masculino;60;PA;2;Baixo risco
+190;210;97.0;112;Feminino;41;CE;2;Baixo risco
+191;211;133.0;164;Masculino;17;ES;1;Risco Moderado Baixo
+192;212;128.0;151;Masculino;50;PA;1;Risco Moderado Baixo
+193;213;154.0;191;Feminino;36;PB;3;Risco Moderado Alto
+194;214;100.0;110;Feminino;67;CE;2;Baixo risco
+195;215;104.0;116;Masculino;67;GO;2;Baixo risco
+196;217;203.0;235;Feminino;62;MS;0;Alto Risco
+197;218;104.0;108;Feminino;43;RS;2;Baixo risco
+198;219;119.0;141;Feminino;50;RJ;1;Risco Moderado Baixo
+199;220;181.0;219;Masculino;32;SP;0;Alto Risco
+200;221;180.0;219;Masculino;33;RN;0;Alto Risco
+201;222;116.0;138;Feminino;38;PB;1;Risco Moderado Baixo
+202;224;102.0;116;Masculino;31;CE;2;Baixo risco
+203;225;176.0;212;Masculino;57;DF;0;Alto Risco
+204;227;184.0;220;Masculino;35;MT;0;Alto Risco
+205;228;124.0;151;Masculino;25;RR;1;Risco Moderado Baixo
+206;229;110.0;119;Masculino;35;MA;2;Baixo risco
+207;230;180.0;212;Feminino;56;SE;0;Alto Risco
+208;231;103.0;111;Masculino;66;GO;2;Baixo risco
+209;232;117.0;142;Masculino;35;TO;1;Risco Moderado Baixo
+210;233;120.0;138;Masculino;20;SP;1;Risco Moderado Baixo
+211;235;133.0;158;Masculino;46;PR;1;Risco Moderado Baixo
+212;236;201.0;228;Masculino;25;MG;0;Alto Risco
+213;237;117.0;134;Masculino;23;MS;2;Baixo risco
+214;238;146.0;181;Feminino;34;AL;3;Risco Moderado Alto
+215;239;195.0;231;Feminino;34;DF;0;Alto Risco
+216;241;108.0;121;Feminino;32;TO;2;Baixo risco
+217;242;191.0;222;Masculino;67;ES;0;Alto Risco
+218;243;100.0;102;Feminino;34;PB;2;Baixo risco
+219;244;158.0;195;Feminino;29;TO;3;Risco Moderado Alto
+220;245;127.0;156;Feminino;59;MG;1;Risco Moderado Baixo
+221;246;181.0;214;Feminino;57;AL;0;Alto Risco
+222;247;113.0;132;Feminino;41;PA;2;Baixo risco
+223;248;171.0;204;Masculino;28;MT;0;Alto Risco
+224;249;153.0;190;Feminino;39;CE;3;Risco Moderado Alto
+225;250;137.0;167;Feminino;46;CE;1;Risco Moderado Baixo
+226;251;154.0;195;Feminino;19;MS;3;Risco Moderado Alto
+227;252;112.0;127;Feminino;46;MS;2;Baixo risco
+228;253;201.0;235;Masculino;60;PB;0;Alto Risco
+229;255;100.0;110;Masculino;58;BA;2;Baixo risco
+230;256;185.0;221;Feminino;40;AP;0;Alto Risco
+231;257;111.0;128;Feminino;26;PB;2;Baixo risco
+232;258;191.0;226;Feminino;42;AP;0;Alto Risco
+233;259;176.0;208;Masculino;50;SP;0;Alto Risco
+234;260;150.0;191;Masculino;63;TO;3;Risco Moderado Alto
+235;261;171.0;205;Masculino;34;RS;0;Alto Risco
+236;262;140.0;173;Masculino;47;ES;3;Risco Moderado Alto
+237;263;153.0;191;Masculino;39;RN;3;Risco Moderado Alto
+238;265;180.0;220;Feminino;21;AP;0;Alto Risco
+239;266;107.0;126;Masculino;32;BA;2;Baixo risco
+240;267;197.0;232;Masculino;41;AP;0;Alto Risco
+241;268;101.0;108;Masculino;30;AL;2;Baixo risco
+242;269;132.0;159;Feminino;27;DF;1;Risco Moderado Baixo
+243;270;168.0;211;Masculino;60;DF;0;Alto Risco
+244;271;200.0;232;Masculino;55;AM;0;Alto Risco
+245;272;150.0;182;Masculino;18;RS;3;Risco Moderado Alto
+246;273;119.0;145;Masculino;54;DF;1;Risco Moderado Baixo
+247;274;197.0;224;Feminino;58;SE;0;Alto Risco
+248;276;134.0;160;Feminino;19;RS;1;Risco Moderado Baixo
+249;277;185.0;219;Masculino;50;SE;0;Alto Risco
+250;278;135.0;170;Feminino;32;GO;1;Risco Moderado Baixo
+251;279;132.0;161;Feminino;64;TO;1;Risco Moderado Baixo
+252;280;109.0;122;Feminino;66;AP;2;Baixo risco
+253;281;116.0;141;Feminino;39;MG;1;Risco Moderado Baixo
+254;282;170.0;204;Masculino;37;RN;0;Alto Risco
+255;283;187.0;226;Masculino;62;RO;0;Alto Risco
+256;284;154.0;187;Masculino;47;ES;3;Risco Moderado Alto
+257;285;111.0;129;Feminino;50;AM;2;Baixo risco
+258;286;169.0;199;Feminino;52;PA;3;Risco Moderado Alto
+259;287;161.0;199;Feminino;25;GO;3;Risco Moderado Alto
+260;288;174.0;214;Feminino;38;AC;0;Alto Risco
+261;290;148.0;176;Masculino;20;GO;3;Risco Moderado Alto
+262;291;117.0;129;Feminino;28;MG;2;Baixo risco
+263;292;154.0;187;Feminino;64;PE;3;Risco Moderado Alto
+264;293;104.0;109;Masculino;20;MG;2;Baixo risco
+265;294;183.0;212;Masculino;33;CE;0;Alto Risco
+266;295;142.0;170;Feminino;28;CE;3;Risco Moderado Alto
+267;296;155.0;191;Masculino;45;MS;3;Risco Moderado Alto
+268;297;105.0;116;Masculino;66;PE;2;Baixo risco
+269;298;160.0;202;Masculino;55;MA;3;Risco Moderado Alto
+270;299;191.0;226;Feminino;41;BA;0;Alto Risco
+271;300;140.0;166;Feminino;66;MA;1;Risco Moderado Baixo
+272;301;123.0;151;Masculino;64;MS;1;Risco Moderado Baixo
+273;303;132.0;166;Masculino;22;BA;1;Risco Moderado Baixo
+274;304;158.0;193;Feminino;22;RJ;3;Risco Moderado Alto
+275;305;182.0;218;Feminino;49;BA;0;Alto Risco
+276;306;104.0;109;Masculino;67;AP;2;Baixo risco
+277;307;126.0;152;Feminino;22;MS;1;Risco Moderado Baixo
+278;308;188.0;220;Feminino;16;AM;0;Alto Risco
+279;309;118.0;133;Feminino;31;CE;2;Baixo risco
+280;310;127.0;152;Feminino;45;RR;1;Risco Moderado Baixo
+281;312;118.0;131;Masculino;70;RJ;2;Baixo risco
+282;313;169.0;204;Masculino;33;RS;0;Alto Risco
+283;314;128.0;153;Masculino;39;RJ;1;Risco Moderado Baixo
+284;315;106.0;114;Masculino;64;PR;2;Baixo risco
+285;316;119.0;144;Masculino;41;SE;1;Risco Moderado Baixo
+286;317;147.0;172;Masculino;66;GO;3;Risco Moderado Alto
+287;318;141.0;176;Feminino;47;RO;3;Risco Moderado Alto
+288;319;125.0;150;Feminino;25;RO;1;Risco Moderado Baixo
+289;320;109.0;129;Feminino;48;MA;2;Baixo risco
+290;321;158.0;190;Feminino;44;PR;3;Risco Moderado Alto
+291;322;190.0;226;Feminino;41;AM;0;Alto Risco
+292;323;110.0;128;Masculino;60;RN;2;Baixo risco
+293;324;99.0;106;Masculino;53;AM;2;Baixo risco
+294;325;98.0;107;Feminino;70;MA;2;Baixo risco
+295;326;134.0;159;Masculino;47;GO;1;Risco Moderado Baixo
+296;327;129.0;157;Masculino;28;AM;1;Risco Moderado Baixo
+297;328;154.0;192;Feminino;18;MG;3;Risco Moderado Alto
+298;329;100.0;110;Feminino;30;TO;2;Baixo risco
+299;330;107.0;115;Masculino;33;PE;2;Baixo risco
+300;331;149.0;183;Masculino;17;PB;3;Risco Moderado Alto
+301;332;203.0;233;Feminino;64;PE;0;Alto Risco
+302;333;101.0;112;Feminino;27;RJ;2;Baixo risco
+303;334;119.0;146;Feminino;28;GO;1;Risco Moderado Baixo
+304;335;182.0;222;Masculino;68;RS;0;Alto Risco
+305;336;181.0;216;Masculino;44;MS;0;Alto Risco
+306;337;115.0;134;Feminino;70;CE;2;Baixo risco
+307;338;145.0;174;Feminino;63;PE;3;Risco Moderado Alto
+308;339;102.0;114;Masculino;43;SP;2;Baixo risco
+309;340;176.0;211;Masculino;54;PA;0;Alto Risco
+310;341;134.0;167;Masculino;68;PB;1;Risco Moderado Baixo
+311;342;183.0;214;Masculino;68;RR;0;Alto Risco
+312;343;123.0;145;Masculino;47;RN;1;Risco Moderado Baixo
+313;344;108.0;120;Masculino;31;TO;2;Baixo risco
+314;345;177.0;217;Feminino;21;AL;0;Alto Risco
+315;346;104.0;113;Masculino;39;PA;2;Baixo risco
+316;347;117.0;141;Masculino;46;MT;1;Risco Moderado Baixo
+317;348;117.0;140;Masculino;61;RJ;1;Risco Moderado Baixo
+318;349;145.0;171;Feminino;52;GO;3;Risco Moderado Alto
+319;350;134.0;163;Masculino;28;MG;1;Risco Moderado Baixo
+320;351;199.0;232;Masculino;61;RR;0;Alto Risco
+321;352;115.0;131;Masculino;33;RR;2;Baixo risco
+322;353;149.0;184;Feminino;25;ES;3;Risco Moderado Alto
+323;354;192.0;225;Feminino;63;MA;0;Alto Risco
+324;355;188.0;223;Masculino;29;RJ;0;Alto Risco
+325;356;107.0;121;Feminino;23;RN;2;Baixo risco
+326;357;190.0;223;Masculino;67;PB;0;Alto Risco
+327;358;98.0;105;Feminino;51;PR;2;Baixo risco
+328;360;128.0;160;Feminino;34;AC;1;Risco Moderado Baixo
+329;361;180.0;218;Feminino;34;MT;0;Alto Risco
+330;363;172.0;211;Masculino;28;MG;0;Alto Risco
+331;364;157.0;194;Feminino;62;MG;3;Risco Moderado Alto
+332;365;137.0;169;Feminino;21;MG;1;Risco Moderado Baixo
+333;366;158.0;189;Feminino;57;SE;3;Risco Moderado Alto
+334;367;110.0;128;Feminino;28;RO;2;Baixo risco
+335;368;203.0;228;Masculino;38;RJ;0;Alto Risco
+336;369;145.0;169;Feminino;70;PR;3;Risco Moderado Alto
+337;370;96.0;108;Masculino;42;RN;2;Baixo risco
+338;371;186.0;219;Feminino;56;AM;0;Alto Risco
+339;372;110.0;124;Feminino;33;DF;2;Baixo risco
+340;373;194.0;224;Feminino;38;RS;0;Alto Risco
+341;374;177.0;214;Masculino;18;RS;0;Alto Risco
+342;376;172.0;205;Masculino;50;RS;0;Alto Risco
+343;377;140.0;167;Masculino;60;SE;1;Risco Moderado Baixo
+344;378;154.0;190;Masculino;53;AL;3;Risco Moderado Alto
+345;379;113.0;128;Masculino;19;BA;2;Baixo risco
+346;380;179.0;217;Feminino;44;MA;0;Alto Risco
+347;381;111.0;126;Masculino;51;AM;2;Baixo risco
+348;382;196.0;228;Masculino;33;PB;0;Alto Risco
+349;383;101.0;105;Masculino;32;RN;2;Baixo risco
+350;385;171.0;211;Masculino;66;AP;0;Alto Risco
+351;386;199.0;227;Masculino;60;TO;0;Alto Risco
+352;387;151.0;178;Masculino;17;AP;3;Risco Moderado Alto
+353;388;121.0;146;Masculino;39;MT;1;Risco Moderado Baixo
+354;389;196.0;227;Feminino;27;PR;0;Alto Risco
+355;390;174.0;208;Masculino;48;RJ;0;Alto Risco
+356;392;184.0;225;Masculino;43;CE;0;Alto Risco
+357;393;137.0;167;Feminino;54;CE;1;Risco Moderado Baixo
+358;394;129.0;162;Feminino;27;BA;1;Risco Moderado Baixo
+359;396;116.0;144;Feminino;31;BA;1;Risco Moderado Baixo
+360;397;168.0;199;Masculino;44;RJ;3;Risco Moderado Alto
+361;398;184.0;226;Masculino;54;AL;0;Alto Risco
+362;399;151.0;183;Masculino;68;AM;3;Risco Moderado Alto
+363;400;114.0;136;Feminino;39;PR;2;Baixo risco
+364;401;167.0;199;Feminino;43;AL;3;Risco Moderado Alto
+365;403;175.0;215;Feminino;45;RS;0;Alto Risco
+366;404;127.0;155;Masculino;38;GO;1;Risco Moderado Baixo
+367;405;146.0;179;Masculino;29;PA;3;Risco Moderado Alto
+368;406;118.0;133;Feminino;58;GO;2;Baixo risco
+369;407;151.0;186;Feminino;49;AM;3;Risco Moderado Alto
+370;409;180.0;219;Masculino;19;RS;0;Alto Risco
+371;410;140.0;173;Feminino;37;GO;3;Risco Moderado Alto
+372;411;155.0;185;Masculino;24;AC;3;Risco Moderado Alto
+373;412;106.0;118;Masculino;44;MG;2;Baixo risco
+374;413;160.0;199;Masculino;19;RO;3;Risco Moderado Alto
+375;414;192.0;226;Feminino;33;PR;0;Alto Risco
+376;415;138.0;169;Feminino;42;SE;1;Risco Moderado Baixo
+377;416;122.0;144;Masculino;56;AC;1;Risco Moderado Baixo
+378;417;135.0;166;Feminino;36;MG;1;Risco Moderado Baixo
+379;418;132.0;166;Masculino;39;RO;1;Risco Moderado Baixo
+380;419;158.0;198;Feminino;25;RN;3;Risco Moderado Alto
+381;420;184.0;222;Feminino;39;AC;0;Alto Risco
+382;421;101.0;110;Masculino;68;PR;2;Baixo risco
+383;422;126.0;154;Feminino;47;AL;1;Risco Moderado Baixo
+384;423;188.0;226;Feminino;48;MG;0;Alto Risco
+385;424;118.0;135;Feminino;25;MA;2;Baixo risco
+386;425;127.0;151;Feminino;57;RN;1;Risco Moderado Baixo
+387;427;117.0;133;Masculino;59;DF;2;Baixo risco
+388;428;172.0;205;Masculino;55;TO;0;Alto Risco
+389;430;104.0;116;Masculino;38;AM;2;Baixo risco
+390;431;121.0;145;Masculino;62;TO;1;Risco Moderado Baixo
+391;432;148.0;174;Masculino;42;CE;3;Risco Moderado Alto
+392;433;141.0;168;Feminino;42;ES;1;Risco Moderado Baixo
+393;434;128.0;156;Feminino;35;PA;1;Risco Moderado Baixo
+394;435;113.0;124;Feminino;63;AM;2;Baixo risco
+395;436;155.0;196;Feminino;34;TO;3;Risco Moderado Alto
+396;438;108.0;122;Masculino;53;PA;2;Baixo risco
+397;439;98.0;106;Masculino;26;AL;2;Baixo risco
+398;440;100.0;110;Feminino;61;RN;2;Baixo risco
+399;441;134.0;158;Masculino;54;PA;1;Risco Moderado Baixo
+400;442;125.0;154;Masculino;59;MS;1;Risco Moderado Baixo
+401;443;151.0;190;Feminino;55;RR;3;Risco Moderado Alto
+402;444;100.0;110;Feminino;58;DF;2;Baixo risco
+403;445;107.0;120;Masculino;64;AC;2;Baixo risco
+404;446;147.0;180;Masculino;31;RN;3;Risco Moderado Alto
+405;447;200.0;232;Feminino;34;RR;0;Alto Risco
+406;449;120.0;142;Feminino;50;RR;1;Risco Moderado Baixo
+407;450;181.0;222;Masculino;45;PR;0;Alto Risco
+408;451;182.0;218;Masculino;19;MS;0;Alto Risco
+409;452;117.0;138;Feminino;61;RJ;1;Risco Moderado Baixo
+410;453;145.0;176;Feminino;25;MS;3;Risco Moderado Alto
+411;454;106.0;115;Masculino;70;RJ;2;Baixo risco
+412;455;179.0;211;Masculino;43;MA;0;Alto Risco
+413;456;134.0;168;Masculino;29;MS;1;Risco Moderado Baixo
+414;457;180.0;216;Masculino;43;PA;0;Alto Risco
+415;458;126.0;147;Masculino;58;AP;1;Risco Moderado Baixo
+416;459;110.0;124;Masculino;41;SP;2;Baixo risco
+417;460;180.0;215;Feminino;64;PE;0;Alto Risco
+418;461;103.0;117;Masculino;43;MG;2;Baixo risco
+419;462;116.0;139;Masculino;53;MG;1;Risco Moderado Baixo
+420;463;119.0;138;Masculino;35;MA;1;Risco Moderado Baixo
+421;464;144.0;171;Feminino;32;MS;3;Risco Moderado Alto
+422;465;133.0;158;Masculino;20;GO;1;Risco Moderado Baixo
+423;467;115.0;139;Masculino;20;AL;1;Risco Moderado Baixo
+424;468;150.0;178;Feminino;65;TO;3;Risco Moderado Alto
+425;469;192.0;224;Feminino;36;ES;0;Alto Risco
+426;470;188.0;224;Masculino;36;AP;0;Alto Risco
+427;471;109.0;116;Feminino;36;RN;2;Baixo risco
+428;472;189.0;223;Masculino;32;PR;0;Alto Risco
+429;473;101.0;109;Feminino;36;MT;2;Baixo risco
+430;474;159.0;193;Feminino;46;PB;3;Risco Moderado Alto
+431;475;128.0;155;Feminino;63;PE;1;Risco Moderado Baixo
+432;476;182.0;221;Feminino;45;SE;0;Alto Risco
+433;477;111.0;130;Feminino;44;AL;2;Baixo risco
+434;478;171.0;212;Masculino;26;RN;0;Alto Risco
+435;479;154.0;190;Feminino;35;AM;3;Risco Moderado Alto
+436;480;134.0;169;Feminino;46;ES;1;Risco Moderado Baixo
+437;481;157.0;191;Feminino;26;PA;3;Risco Moderado Alto
+438;483;203.0;234;Masculino;29;PE;0;Alto Risco
+439;484;142.0;175;Feminino;56;MA;3;Risco Moderado Alto
+440;485;97.0;108;Masculino;58;ES;2;Baixo risco
+441;486;187.0;220;Feminino;53;RO;0;Alto Risco
+442;487;111.0;126;Feminino;41;BA;2;Baixo risco
+443;488;194.0;227;Feminino;25;PA;0;Alto Risco
+444;489;176.0;216;Masculino;31;AL;0;Alto Risco
+445;490;153.0;188;Masculino;17;SP;3;Risco Moderado Alto
+446;491;171.0;205;Masculino;62;PR;0;Alto Risco
+447;492;142.0;172;Masculino;64;MS;3;Risco Moderado Alto
+448;493;153.0;192;Masculino;70;MS;3;Risco Moderado Alto
+449;494;113.0;129;Masculino;21;GO;2;Baixo risco
+450;496;108.0;127;Masculino;66;GO;2;Baixo risco
+451;497;200.0;228;Masculino;67;DF;0;Alto Risco
+452;498;99.0;105;Masculino;26;MG;2;Baixo risco
+453;499;131.0;159;Feminino;41;RS;1;Risco Moderado Baixo
+454;500;171.0;205;Masculino;55;CE;0;Alto Risco
+455;502;152.0;178;Masculino;41;MS;3;Risco Moderado Alto
+456;503;119.0;139;Masculino;58;CE;1;Risco Moderado Baixo
+457;504;196.0;232;Feminino;16;GO;0;Alto Risco
+458;505;173.0;212;Masculino;59;MG;0;Alto Risco
+459;506;132.0;162;Feminino;50;SE;1;Risco Moderado Baixo
+460;507;185.0;226;Masculino;34;AM;0;Alto Risco
+461;508;138.0;171;Feminino;40;RS;1;Risco Moderado Baixo
+462;509;132.0;159;Feminino;45;RN;1;Risco Moderado Baixo
+463;510;110.0;120;Feminino;48;RJ;2;Baixo risco
+464;512;167.0;200;Masculino;29;SE;3;Risco Moderado Alto
+465;513;188.0;221;Masculino;28;RO;0;Alto Risco
+466;514;151.0;184;Masculino;42;MT;3;Risco Moderado Alto
+467;515;112.0;134;Feminino;65;GO;2;Baixo risco
+468;516;166.0;200;Feminino;47;RJ;3;Risco Moderado Alto
+469;517;158.0;201;Feminino;46;AP;3;Risco Moderado Alto
+470;518;172.0;210;Feminino;19;MT;0;Alto Risco
+471;519;127.0;159;Masculino;26;MG;1;Risco Moderado Baixo
+472;520;150.0;178;Masculino;50;MG;3;Risco Moderado Alto
+473;521;115.0;137;Feminino;45;MA;2;Baixo risco
+474;523;103.0;110;Masculino;26;RJ;2;Baixo risco
+475;525;141.0;170;Feminino;39;SP;3;Risco Moderado Alto
+476;526;152.0;193;Masculino;30;MT;3;Risco Moderado Alto
+477;527;105.0;113;Masculino;38;DF;2;Baixo risco
+478;528;162.0;196;Masculino;20;DF;3;Risco Moderado Alto
+479;529;190.0;222;Feminino;23;SP;0;Alto Risco
+480;530;141.0;174;Feminino;63;BA;3;Risco Moderado Alto
+481;531;122.0;143;Masculino;43;SE;1;Risco Moderado Baixo
+482;532;136.0;169;Feminino;51;TO;1;Risco Moderado Baixo
+483;533;131.0;165;Masculino;61;BA;1;Risco Moderado Baixo
+484;534;157.0;194;Feminino;51;CE;3;Risco Moderado Alto
+485;535;181.0;217;Feminino;32;RN;0;Alto Risco
+486;536;103.0;113;Masculino;37;PR;2;Baixo risco
+487;537;127.0;150;Feminino;32;AL;1;Risco Moderado Baixo
+488;538;189.0;223;Feminino;34;PA;0;Alto Risco
+489;539;114.0;133;Feminino;31;AL;2;Baixo risco
+490;540;125.0;149;Feminino;35;RR;1;Risco Moderado Baixo
+491;541;123.0;149;Feminino;51;AL;1;Risco Moderado Baixo
+492;542;116.0;130;Masculino;34;MA;2;Baixo risco
+493;543;172.0;207;Masculino;20;RO;0;Alto Risco
+494;544;129.0;157;Masculino;66;AC;1;Risco Moderado Baixo
+495;545;107.0;115;Masculino;36;CE;2;Baixo risco
+496;546;117.0;147;Masculino;57;RN;1;Risco Moderado Baixo
+497;547;148.0;176;Masculino;61;ES;3;Risco Moderado Alto
